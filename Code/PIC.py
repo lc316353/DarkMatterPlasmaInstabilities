@@ -142,7 +142,7 @@ def lin(x,a,b):
 rV=10                                               #v0/V1 - streaming velocity normalized to the start temperature-mass ratio
 alpha=1                                             #n1/n2 - ratio of number densities
 rT=1                                                #sqrt(T1/T2)=V1/V2 - ratio of stream velocity dispersions
-N=int(2e3)                                          #The number of particles involved
+N=int(2e4)                                          #The number of particles involved
 
 L=100                                               #The length of the space before it loops (needs to be even)
 J=100                                               #The number of grid points in space
